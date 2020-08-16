@@ -1,0 +1,23 @@
+<!-- ---
+layout: compress
+--- -->
+<!DOCTYPE html>
+
+<script type="text/javascript" src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>
+<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+<style type='text/css'>
+.hljs {
+  white-space: pre;
+  word-wrap: normal;
+  overflow-x: auto;
+}
+</style>
+
+<html lang="en">
+{% include head.html %}
+<body ontouchstart="">
+    {% include nav.html %}
+    {{ content }}
+    {% include footer.html %}
+</body>
+</html>
