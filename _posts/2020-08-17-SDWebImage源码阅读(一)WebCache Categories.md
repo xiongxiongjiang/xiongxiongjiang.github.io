@@ -18,7 +18,7 @@ version：5.8.4
 
 
 
-![SDWebImage](../img/post/SDWebImage.png)
+![SDWebImage](/img/post/SDWebImage.png)
 
 在iOS开发中会经常用到SDWebImage，其中最常用的到的方法就是```- (void)sd_setImageWithURL:(nullable NSURL *)url```了。本次源码阅读，从这个函数进入源码，探索SDWebImage的设计思想。
 
