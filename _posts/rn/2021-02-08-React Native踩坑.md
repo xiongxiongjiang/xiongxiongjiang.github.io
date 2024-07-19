@@ -105,3 +105,9 @@ TypeError: Cannot read properties of undefined (reading 'transformFile')
     ```shell
     n 14.18.1
     ```
+
+
+
+### 安卓手机连接电脑后，android studio上不显示
+
+重启电脑
