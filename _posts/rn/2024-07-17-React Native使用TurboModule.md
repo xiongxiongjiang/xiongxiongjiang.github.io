@@ -18,7 +18,7 @@ math:       true
 iOS上，进入ios目录，执行：
 
 ```
-RCT_NEW_ARCH_ENABLED=1 && pod install
+RCT_NEW_ARCH_ENABLED=1 pod install
 ```
 
 在根目录下，创建tm文件夹，最后你的目录应该是这个样子：
